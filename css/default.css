@@ -48,6 +48,8 @@ html {
 	justify-content: center;
 	margin: 2em;
 	font-size: 120%;
+	flex-direction: column;
+	align-items: center;
 }
 
 #save {
@@ -66,4 +68,26 @@ html {
 	border-radius: .5em;
 	height: 2em;
 	width: 20em;
+}
+
+.input-group  {
+	margin: .25em;
+}
+
+.form-control {
+	background-color: black;
+	border: solid 1px gray;
+	color: white;
+	height: 1.5em;
+	text-align: center;
+	border-radius: .25em;
+	margin: .1em;
+}
+
+.remove_field {
+	background-color: red;
+	color: white;
+	border: solid 1px red;
+	border-radius: .1em;
+	margin-left: 1em;
 }
