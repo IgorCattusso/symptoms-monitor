@@ -1,0 +1,113 @@
+html {
+	background-color: black;
+	color: white;
+	border-color: white;
+	font-family: Roboto;
+}
+
+button {
+	border: 0;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+
+}
+
+#main-menu{
+	display: flex;
+	justify-content: space-around;
+}
+
+.header-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.clocks-container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	flex-grow: 4;
+}
+
+.logo-img {
+	height: 100px;
+	display: flex;
+}
+
+.logo-container {
+	display: flex;
+	align-items: center;
+	padding-right: 1em;
+	padding-left: 1em;
+}
+
+.time-description {
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+#clock, #clockUTC {
+	font-size: 5em;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	display: flex;
+	justify-content: center;
+}
+
+.menu-option, .clock-ico {
+	padding-top: .5em;
+	padding-bottom: .5em;
+	padding-left: 1em;
+	padding-right: 1em;
+	font-size: 2em;
+	border: none;
+}
+
+#clock-ico {
+	width: 1em;
+	vertical-align: middle;
+	padding-right: .5em;
+}
+
+.header-hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+.wp-btn {
+	background: none;
+	border: none;
+	color: white;
+}
+
+.wp-ico {
+	height: 2.5em;	
+}
+
+.wp-div {
+	display: flex;	
+}
+
+#copy-message {
+	position: fixed; 
+	top: 0;
+	right: 0;
+	padding: 2em;
+	background-color: green;
+	border-radius: 1em;
+	margin: 1em;
+	font-size: 1.2em;
+	font-weight: bold;
+}
