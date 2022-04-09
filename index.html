@@ -10,13 +10,29 @@
 	</head>
 	<body>
 
-		<div class="clocks-container">
+		<div class="clock-container">
 			<div>
 				<div id="clock">
 					<script src="js\clock.js"></script>
 				</div>
 			</div>
 		</div>
-		
+
+		<div class="pressure-container">
+			<input type="number" id="systolic-input" class="pressure-input" placeholder="Systolic Pressure">
+			<input type="number" id="diastolic-input" class="pressure-input" placeholder="Diastolic Pressure">
+		</div>
+
+		<div class="symptoms-container">
+			<button id="add-symptom">+ Add Symptom</button>
+		</div>
+
+		<div class="save-container">
+			<button id="save">
+				Save
+			</button>
+		</div>
+
 	</body>
+
 </html>
